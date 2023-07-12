@@ -1,0 +1,62 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn{
+    border: 1px solid  white;
+    border-radius: 4px;
+    padding: 5px 13px;
+    color: white;
+    font-size: 15px;
+    background-color:black;
+    transition: 0.3s;
+    margin: 0 10px;
+}
+
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+    
+    /* transform: scale(1.03); */
+   
+}
+.btn:hover a{
+    color: rgb(0, 0, 0);
+}
+
+span{
+    color: blue;
+}
+
+hr{
+    margin: 65px 0 0;
+}
+
+
+.btn-lg{
+    padding: 10px 30px;
+    margin: 10px 110px;
+    background: rgb(250, 249, 248);
+    border: 1px solid rgb(18, 17, 17);
+    border-radius: 5px;
+    font-family: "Ubuntu", sans-serif;
+    box-shadow: 3px 3px rgb(55, 54, 55);
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+
+
+.btn-lg:hover{
+    /* background-color: rgb(17, 17, 17); */
+    transform: scale(1.03);
+    transition: 0.2s;
+    box-shadow: 5px 5px rgb(16, 15, 15);
+    /* box-shadow: 5px 5px blue; */
+
+}
+
+.mr-lf-60{
+    margin-left: 60px;
+}
